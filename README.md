@@ -15,6 +15,7 @@ and their orders for Acme Corp.
 1. Application configured in http://localhost:5183
 2. Once run the application, from Postman request  http://localhost:5183/api/token to get Bearer token
 3. Use the Bearer token request to get Customer (CRUD) api calls. Here is sample Json to create Customer
+4. 
   {
         "id": 1,
         "name": "Joseph",
@@ -22,5 +23,5 @@ and their orders for Acme Corp.
         "emailId": "ioseph@test.com"
     }
  
- 4. Use SQLite to store data from API's. Note: No master data scrips to create data at SQLite
+ 5. Use SQLite to store data from API's. Note: No master data scrips to create data at SQLite
  
