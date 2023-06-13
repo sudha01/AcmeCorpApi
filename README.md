@@ -12,3 +12,15 @@ and their orders for Acme Corp.
 •	Check in code to personal GH repo and reply with the link.
 •	IaC to deploy to AWS is a bonus. 
 
+1. Application configured in http://localhost:5183
+2. Once run the application, from Postman request  http://localhost:5183/api/token to get Bearer token
+3. Use the Bearer token request to get Customer (CRUD) api calls. Here is sample Json to create Customer
+  {
+        "id": 1,
+        "name": "Joseph",
+        "address": "Hyderabad",
+        "emailId": "ioseph@test.com"
+    }
+ 
+ 4. Use SQLite to store data from API's. Note: No master data scrips to create data at SQLite
+ 
